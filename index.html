@@ -8,17 +8,52 @@
     <title>Likes</title>
   </head>
   <body>
-    <h1>hello world</h1>
-    <div class="card">
-      <div class="card-header">
-        <h1>Some User</h1>
-        <h3>like(s)</h3>
-        <button onclick="incrementLike(this)">Like</button>
+    <nav>
+      <h1>Network</h1>
+    </nav>
+    <div class="container">
+      <div class="profile">
+        <div class="card">
+          <img src="img/user-circle.png" alt="" />
+          <h3><a href="">Add an avatar</a></h3>
+          <h1>James Doe</h1>
+        </div>
       </div>
-      <div class="card-body">
-        <p>This is some filler text, it can say anything we like</p>
+      <div class="feed">
+        <h1>Your Feed</h1>
+        <div class="card">
+          <div class="card-header">
+            <h1>Some User</h1>
+            <h3 id="likes">0 like(s)</h3>
+            <button id="like-button" onclick="incrementLike()">Like</button>
+          </div>
+          <div class="card-body">
+            <p>This is some filler text, it can say anything we like</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Some User</h1>
+            <h3 id="likes">like(s)</h3>
+            <button id="like-button" onclick="incrementLike()">Like</button>
+          </div>
+          <div class="card-body">
+            <p>This is some filler text, it can say anything we like</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Some User</h1>
+            <h3 id="likes">like(s)</h3>
+            <button id="like-button" onclick="incrementLike()">Like</button>
+          </div>
+          <div class="card-body">
+            <p>This is some filler text, it can say anything we like</p>
+          </div>
+        </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
